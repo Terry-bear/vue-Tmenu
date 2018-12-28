@@ -1,0 +1,24 @@
+{
+  "name": "vue-tmenu",
+  "version": "0.0.1",
+  "description": " A practical and removable data menu integration plug-in. Based on Vue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t496971418/vue-Tmenu.git"
+  },
+  "keywords": [
+    "vue",
+    "menu",
+    "plugin"
+  ],
+  "author": "terryzh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t496971418/vue-Tmenu/issues"
+  },
+  "homepage": "https://github.com/t496971418/vue-Tmenu#readme"
+}
