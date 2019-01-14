@@ -1,0 +1,37 @@
+{
+  "defaultSeverity": "warning",
+  "extends": ["tslint:recommended"],
+  "linterOptions": {
+    "exclude": ["node_modules/**", "~.vscode/extensions/**"]
+  },
+  "rulesDirectory": ["src/"],
+  "rules": {
+    "quotemark": [true, "single"],
+    "indent": [true, "spaces", 2],
+    "semicolon": [true, "never"],
+    "interface-name": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-consecutive-blank-lines": false,
+    "no-empty-interface": true,
+    "no-shadowed-variable": false,
+    "no-empty": false,
+    "no-console": false,
+    "no-var-requires": false,
+    "ban-comma-operator": true,
+    "no-bitwise": false,
+    "arrow-parens": false,
+    "trailing-comma": [true, { "multiline": "never", "singleline": "never" }],
+    "max-line-length": false,
+    "only-arrow-functions": false,
+    "variable-name": [
+      true,
+      "check-format",
+      "allow-leading-underscore",
+      "allow-trailing-underscore",
+      "allow-pascal-case",
+      "allow-snake-case",
+      "ban-keywords"
+    ]
+  }
+}
