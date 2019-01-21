@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import dyRouter from './dynamic-router'
-import CloudHome from '@/views/CloudHome.vue'
 
 Vue.use(Router)
 
@@ -10,9 +9,9 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [{
     path: '/',
-    name: 'CloudHome',
-    component: CloudHome,
+    name: 'MainHome',
+    component: () => import('@/views/layout/index.vue')
     // 动态路由
-    children: dyRouter
+    // children: dyRouter
   }]
 })

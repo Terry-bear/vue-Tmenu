@@ -1,0 +1,12 @@
+@mixin wh($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+
+@mixin def_flex($direction, $jContent, $aItems) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $jContent;
+  align-items: $aItems;
+}
