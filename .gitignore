@@ -1,23 +1,4 @@
-#.DS_Store
-/dist
-
-# local env files
-.env.local
-.env.*.local
-
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw* Logs
+# Logs
 logs
 *.log
 npm-debug.log*
@@ -55,7 +36,7 @@ build/Release
 node_modules/
 jspm_packages/
 
-# TypeScript v1 declaration files
+# Typescript v1 declaration files
 typings/
 
 # Optional npm cache directory
@@ -78,3 +59,13 @@ typings/
 
 # next.js build output
 .next
+
+# editor configs
+.idea
+
+# release folders
+release
+
+# git
+git
+git.pub
