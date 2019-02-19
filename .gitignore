@@ -1,9 +1,15 @@
 .DS_Store
 node_modules
 /app4vue/node_modules
+/app1react/node_modules
 /portal/node_modules
 /vue_protal/node_modules
 # /dist
+/dist
+/vue_protal/dist
+/portal/dist
+/app4vue/dist
+/app1react/dist
 
 # local env files
 .env.local
