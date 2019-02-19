@@ -1,0 +1,43 @@
+@import './color-varibles.scss';
+
+#app {
+  // 侧边栏
+  .sidebar-container {
+    transition: all 0.5s ease-in-out;
+    width: 50px !important;
+    // width: 230px !important;
+    height: 100%;
+    position: fixed;
+    font-size: 0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1001;
+    overflow: hidden;
+    background-color: $subMenuBg !important;
+    &:hover {
+      //   background-color: $menuHover !important;
+      min-width: 50px !important;
+      width: 230px !important;
+      transition: all 0.5s;
+    }
+  }
+  .sidebar-list {
+    font-size: 13px;
+    color: #fff;
+    width: 90%;
+    background-color: $subMenuBg;
+    height: 100%;
+  }
+  // 二级菜单的样式
+  .submenu-wrapper{
+    position: fixed;
+    top: 0;
+    left: 230px;
+    width: 770px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease-in-out;
+  }
+}

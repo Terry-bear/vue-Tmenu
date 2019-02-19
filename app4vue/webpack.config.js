@@ -3,7 +3,8 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
 	entry: {
-		singleSpaEntry: 'src/singleSpaEntry.js'
+		singleSpaEntry: 'src/singleSpaEntry.js',
+        store: 'src/store.js'
 	},
 	output: {
 		filename: '[name].js',

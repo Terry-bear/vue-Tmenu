@@ -1,0 +1,14 @@
+@mixin iconStyle($mouseHover) {
+  opacity: 0.3 !important;
+  &:hover {
+    cursor: $mouseHover;
+    opacity: 1 !important;
+  }
+}
+
+@mixin svgIconStyle {
+  line-height: 40px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
