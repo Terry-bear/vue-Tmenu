@@ -64,3 +64,17 @@ yarn serve:integ
 ```
 
 ##### Now you can visit [http://localhost:9000/](http://localhost:9000/)
+
+# build
+if you want to build this project
+you should marge `vue_protal` and `app4vue` in same dir
+
+```mermaid
+graph TD
+A[dist_vue_portal] -->|mrege| B(app4vue)
+B --> C{mreged}
+C --> D[app4]
+C --> E[js]
+C --> F[css]
+C --> G[assets]
+```

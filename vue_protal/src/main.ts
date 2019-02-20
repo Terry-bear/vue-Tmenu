@@ -6,8 +6,8 @@ import './plugins/element.ts'
 import './icons'
 import { apolloProvider } from './plugins/apollo'
 
-// import './system.js'
-// import './portal.js'
+import './system.js'
+import './portal.js'
 
 Vue.config.productionTip = false
 
